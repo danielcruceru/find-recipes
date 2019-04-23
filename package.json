@@ -1,0 +1,27 @@
+{
+  "name": "recipes-finder",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "npm install && vue-cli-service serve",
+    "build": "npm install --production && vue-cli-service build"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "core-js": "^2.6.5",
+    "jquery": "^3.4.0",
+    "popper.js": "^1.15.0",
+    "showdown": "^1.9.0",
+    "vee-validate": "^2.2.3",
+    "vue": "^2.6.6",
+    "vue-cookie-law": "^1.10.0",
+    "vue-router": "^3.0.1",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "node-sass": "^4.11.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
